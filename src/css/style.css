@@ -1,0 +1,113 @@
+.main{
+    background-color: var(--color-background--);
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main .container{
+    width: 600px;
+    height: 450px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.main .container .image{
+    width: 50%;
+    height: 100%;
+}
+
+.main .container .image .image-perfum{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.main .container .infos-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.main .container .infos-text .top{
+    color: var(--neutral-color2--);
+    font-family: var(--montserrat-font--);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    margin-bottom: 18px;
+    align-self: flex-start;
+}
+
+.main .container .infos-text .title{
+    font-family: var(--fraunces-font--);
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.main .container .infos-text .paragraph{
+    font-family: var(--montserrat-font--);
+    color: var(--neutral-color2--);
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 18px;
+}
+
+.main .container .value{
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 30px;
+}
+
+.main .container .value .value-promotion{
+    padding-right: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--fraunces-font--);
+    color: var(--color-primary-items--);
+}
+
+.main .container .value .value-old{
+    align-content: center;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: var(--neutral-color2--);
+}
+
+.main .container .btn{
+    background-color: var(--color-primary-items--);
+    color: white;
+    font-family: var(--montserrat-font--);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 70px;
+    border-radius: 10px;
+    display: flex;
+    transition: 0.4s;
+}
+
+.main .container .btn .icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.main .container .btn p{
+    display: flex;
+    width: 80px;
+}
+
+.main .container .btn:hover{
+    background-color: var(--neutral-color1--);
+}
+
+
+
+

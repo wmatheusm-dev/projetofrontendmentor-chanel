@@ -1,0 +1,42 @@
+@media(max-width: 560px){
+
+    .main .container{
+        width: 300px;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .container .image{
+        width: 100%;
+    }
+
+    .main .container .image .image-perfum{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .main .container .infos-text{
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .main .container .infos-text .top{
+        font-size: 10px;
+    }
+
+    .main .container .infos-text .top,
+    .main .container .infos-text .title,
+    .main .container .infos-text .paragraph,
+    .main .container .infos-text .value{
+        margin-bottom: 12px;
+    }
+
+    .main .container .btn{
+        padding: 12px 70px;
+    }
+
+
+
+}
